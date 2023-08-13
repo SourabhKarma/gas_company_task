@@ -1,0 +1,35 @@
+    
+
+
+
+Api's List
+
+
+# Register user_account             POST    http://127.0.0.1:8000/api/register/
+
+# User Login                        POST    http://127.0.0.1:8000/api/login/
+
+# User Logout                       POST    http://127.0.0.1:8000/api/logout/
+
+
+--- Authenticated Api  --
+
+# To Post Services                  POST    http://127.0.0.1:8000/api/v1/service/
+
+# To Track the List of Services     GET     http://127.0.0.1:8000/api/v1/service/
+
+# Get User Account Details          GET     http://127.0.0.1:8000/api/user_account/
+
+
+--- Token ----
+
+# Get Access and Refresh Token(TokenPair) POST    http://127.0.0.1:8000/api/token/
+
+# Get New Access TokenPair                POST    http://127.0.0.1:8000/api/token/refresh/
+
+
+
+Admin can update services and user Account by login in the admin ineterface at =
+
+http://127.0.0.1:8000/admin/
+
