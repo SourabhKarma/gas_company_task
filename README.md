@@ -25,7 +25,7 @@ Note - For windows user use python for linux user use python3 while running the 
 #####################  Project Installations ######################
 
 
-# If using virtual env activate it then run the following command
+# If using virtual env activate it,  then run the following command
 
 	pip3 install -r requirements.txt
 
